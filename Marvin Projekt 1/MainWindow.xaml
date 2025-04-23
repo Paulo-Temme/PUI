@@ -16,6 +16,6 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content=" Hallo "></Button>
+        <Rectangle Fill="Red" Height="200" Width="200" Grid.Column="1" Grid.Row="0"></Rectangle>
     </Grid>
 </Window>
