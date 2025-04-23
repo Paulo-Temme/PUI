@@ -24,5 +24,28 @@ namespace Marvin_Projekt_1
         {
             InitializeComponent();
         }
+
+        private void change(object sender, MouseEventArgs e)
+        {
+
+            rechteck.Fill = new SolidColorBrush(Colors.Green);
+        }
+
+
+
+        private void changeback(object sender, MouseEventArgs e)
+        {
+            rechteck.Fill = new SolidColorBrush(Colors.Red);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            zwFenster window = new zwFenster();
+            window.Show();
+            this.Close();
+
+
+        }
+       
     }
 }
